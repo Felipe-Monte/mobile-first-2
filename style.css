@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin&family=Staatliches&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-big: 'Staatliches', cursive;
+  --font-sm: 'Palanquin', sans-serif;
+
+  font-size: 62.5%;
+}
+
+header {
+  width: 100%;
+  padding-bottom: 2.9rem;
+  text-align: center;
+  background: #8E9AAF;
+}
+
+header img {
+  margin: 3.2rem auto 3.2rem;
+}
+
+header div.tittle {
+  padding-top: 1rem;
+  padding-bottom: 0.8rem;
+  background: #CBC0D3;
+}
+
+header h1 {
+  font-family: var(--font-big);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 3.4rem;
+
+  letter-spacing: 0.05em;
+
+  color: #fff;
+}
+
+/* SECTION */
+
+section div.text {
+  margin: auto;
+  width: 38.4rem;
+
+  text-align: center;
+
+  background: #EFF1FF;
+}
+
+section div.text p {
+  margin: auto;
+  width: 31.5rem;
+
+  padding-top: 2.4rem;
+  padding-bottom: 6.3rem;
+
+  font-family: var(--font-sm);
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  -webkit-font-smoothing: antialiased;
+
+  color: #23053A;
+}
+
+/* CARDS */
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+
+  margin: auto;
+  width: 38.4rem;
+
+  background: #EFF1FF;
+}
+
+.cards .card {
+  position: relative;
+
+  margin: auto;
+  width: 32.0rem;
+  height: auto;
+}
+
+/* SPAN */
+
+span {
+  position: absolute;
+  top: 1.6rem;
+  right: 1.6rem;
+
+  padding: 0.1rem 2.4rem;
+
+  font-family: var(--font-big);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3.4rem;
+
+  letter-spacing: 0.05em;
+
+  background: #FEEAFA;
+  color: #4A4E69;
+
+  border-radius: 20px;
+}
